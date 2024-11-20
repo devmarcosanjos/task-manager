@@ -36,7 +36,7 @@ const Tasks = () => {
       </div>
       <div className="completed-tasks">
         <div className="task-list">
-          <h2>Tarefas concluidas</h2>
+          <h2>Tarefas concluídas</h2>
           {tasks
             .filter((task) => task.isCompleted === true)
             .map((completedTask) => (
